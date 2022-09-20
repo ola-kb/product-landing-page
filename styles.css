@@ -79,8 +79,9 @@ form {
   border: solid #111111;
 }
 
-.feature {
+div.feature {
   display: flex;
+  flex-shrink:1;
 }
 
 #features .icon {
@@ -172,9 +173,18 @@ footer ul li {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 760px) {
   body {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+  }
+    #features {
+   
+  }
+  div.feature {
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: 3em 0; 
   }
 }
