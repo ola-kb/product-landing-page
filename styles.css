@@ -56,8 +56,8 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  margin-top: 50px;
+  height: 15rem;
+  margin-top: 3rem;
   text-align: center;
 }
 
@@ -81,7 +81,7 @@ form {
 
 div.feature {
   display: flex;
-  flex-shrink:1;
+  flex-shrink: 1;
 }
 
 #features .icon {
@@ -98,7 +98,7 @@ div.feature {
   flex-direction: column;
   justify-content: center;
   height: 125px;
-  width: 80vw;
+  width: 100%;
   padding: 5px;
 }
 
@@ -178,13 +178,20 @@ footer ul li {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+
   }
-    #features {
-   
+
+  #nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
   }
+
   div.feature {
     flex-wrap: wrap;
     align-content: space-between;
-    margin: 3em 0; 
+    margin: 3em 0;
   }
 }
