@@ -178,17 +178,17 @@ footer ul li {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
   }
 
-  #nav-bar {
+  #nav-bar ul a {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
   }
-
+#spine {
+  margin-top: 8rem;
+}
   div.feature {
     flex-wrap: wrap;
     align-content: space-between;
